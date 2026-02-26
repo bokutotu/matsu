@@ -18,6 +18,23 @@
         "type": "github"
       }
     },
+    "isl-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1771792914,
+        "narHash": "sha256-i4Io1KGLPQrkekXtDVYVenWiLj5Jlz6wd2DP5hiUJTg=",
+        "ref": "refs/heads/master",
+        "rev": "38cf72a41b708475fc22dc9fc62c7caae1ac29f6",
+        "revCount": 9001,
+        "type": "git",
+        "url": "https://repo.or.cz/isl.git"
+      },
+      "original": {
+        "ref": "refs/heads/master",
+        "type": "git",
+        "url": "https://repo.or.cz/isl.git"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1771848320,
@@ -37,6 +54,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "isl-src": "isl-src",
         "nixpkgs": "nixpkgs"
       }
     },

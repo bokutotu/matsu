@@ -1,0 +1,9 @@
+# Idris build outputs
+build/
+
+# Nix local artifacts
+result
+result-*
+
+# Local environment directories
+.direnv/
