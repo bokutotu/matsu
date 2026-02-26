@@ -1,0 +1,6 @@
+package matsu
+version = 0.1.0
+sourcedir = "src"
+modules = Main
+main = Main
+executable = matsu
