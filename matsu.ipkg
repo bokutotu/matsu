@@ -1,6 +1,6 @@
 package matsu
 version = 0.1.0
 sourcedir = "src"
-modules = Main
+modules = Main, Frontend, Frontend.IR
 main = Main
 executable = matsu
